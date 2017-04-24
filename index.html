@@ -10,14 +10,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script>
-	$("#bio").hide();
-	$("#bioHeader").hide();
-	</script>
-	<script>
 	$(document).ready(function(){
-    $("button").click(function(){
-        $("#bio").toggle();
-		$("#bioHeader").toggle();
+    $("#idButton").click(function(){
+        $(".toshow").toggle();		
     });
 });
 	</script>
@@ -106,7 +101,7 @@
 <p class="margin toshow" id="bio">I'm trading one branch of engineering for another. I was a chemical and biomedical engineer, but now I'm looking to apply the problem-solving skills I've honed in the past to software engineering. With three patents and a master's thesis to my name, I have experience researching and implementing creative and innovative solutions to business problems.<br /><br />
 I have been a tutor for standardized tests (GRE, GMAT, ACT, SAT, and TOEFL) for almost four years for Kaplan, and now Magoosh. This position challenges me to explain complex math and verbal concepts to students around the world. I have not only improved my verbal and written communication skills by teaching students, but I have also met many passionate students who I am sure will improve the planet.<br /><br />
 When not coding, I can be found running (sometimes on the White Pine Trail, sometimes not), solving crossword puzzles, or surfing the web for the latest and greatest dishes to cook.</p>
-<button class="btn btn-default btn-lg">
+<button class="btn btn-default btn-lg" id="idButton">
     Find out about me!</button>	
   </a>
   
